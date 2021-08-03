@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
 	name: "FolioReaderKit",
 	dependencies: [
-		.package(url: "https://github.com/ZipArchive/ZipArchive.git", from: "2.1"),
+		.package(url: "https://github.com/ZipArchive/ZipArchive.git", .exact("2.1.0")),
 		.package(url: "https://github.com/cxa/MenuItemKit.git", .exact("3.0")),
 		.package(url: "https://github.com/zoonooz/ZFDragableModalTransition.git", .exact("0.6")),
 		.package(url: "https://github.com/tadija/AEXML.git", .exact("4.2")),
